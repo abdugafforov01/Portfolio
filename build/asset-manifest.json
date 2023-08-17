@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/static/css/main.6f2398be.css",
+    "main.js": "/static/js/main.77eee7b8.js",
+    "static/media/Cover.png": "/static/media/Cover.5bd05f874430e3242fb7.png",
+    "static/media/job.png": "/static/media/job.9dd180f3dd83f2a584a4.png",
+    "static/media/restoran.png": "/static/media/restoran.76c2c4e1920cfa24e1d7.png",
+    "static/media/brella.png": "/static/media/brella.fe16dfcb9b282941761f.png",
+    "static/media/hydra.png": "/static/media/hydra.6ba39307733ec0d24067.png",
+    "static/media/googestore.png": "/static/media/googestore.a9b994d4a93faf28ba46.png",
+    "static/media/mk.jpg": "/static/media/mk.7ce5b471a85b06f2f033.jpg",
+    "static/media/loftmebel.png": "/static/media/loftmebel.95d5c7c93480198f7bbb.png",
+    "static/media/it.jpg": "/static/media/it.bfe12c9daadf812d2579.jpg",
+    "static/media/xislatbek-logo.png": "/static/media/xislatbek-logo.176f9f92c05b284824e1.png",
+    "static/media/product.png": "/static/media/product.7402a223748848e52d90.png",
+    "static/media/my.jpg": "/static/media/my.b243a7534645c949b314.jpg",
+    "static/media/sto2.jpg": "/static/media/sto2.43be662b581281bfddcc.jpg",
+    "static/media/me.jpg": "/static/media/me.f8f83b9002a703d36a60.jpg",
+    "static/media/revicons.eot": "/static/media/revicons.a77de540a38981833f9e.eot",
+    "static/media/revicons.ttf": "/static/media/revicons.57fd05d4ae650374c8de.ttf",
+    "static/media/icons8-react.svg": "/static/media/icons8-react.71b6464c71fa64a3c35fe14ac5e3c02c.svg",
+    "static/media/revicons.woff": "/static/media/revicons.e8746a624ed098489406.woff",
+    "static/media/icons8-sass.svg": "/static/media/icons8-sass.38497bdd8ac108bbbc8e49d43d3921cc.svg",
+    "index.html": "/index.html",
+    "static/media/icons8-javascript (1).svg": "/static/media/icons8-javascript (1).64d9e0e76154cf546e6a54e6f4bfb9ac.svg",
+    "static/media/icons8-bootstrap.svg": "/static/media/icons8-bootstrap.19c3fd09c600ab7007343a5d6cc5235a.svg",
+    "static/media/icons8-css.svg": "/static/media/icons8-css.8fe37b3430423bafeedb1dc7875a165a.svg",
+    "static/media/icons8-html.svg": "/static/media/icons8-html.f064b3740c16d30101bff45358ea72c1.svg",
+    "static/media/getFetch.cjs": "/static/media/getFetch.40f37ddea2378391108f.cjs",
+    "static/media/icons8-vue-js.svg": "/static/media/icons8-vue-js.8a06a5910da5afdef8116e30fb335c5a.svg",
+    "main.6f2398be.css.map": "/static/css/main.6f2398be.css.map",
+    "main.77eee7b8.js.map": "/static/js/main.77eee7b8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6f2398be.css",
+    "static/js/main.77eee7b8.js"
+  ]
+}

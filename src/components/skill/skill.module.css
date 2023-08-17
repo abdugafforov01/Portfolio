@@ -1,0 +1,69 @@
+.skill {
+    padding: 13rem 0 100px 0;
+}
+@media (max-width:1000px){
+    .skill{
+        padding-left:10px;
+        padding-right: 10px;
+        padding-top: 10rem;
+    }
+}
+
+.skill_bx {
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 64px;
+    text-align: center;
+    padding: 60px 50px;
+}
+
+.skill h2 {
+    font-size: 45px;
+    font-weight: 700;
+    color: #B8B8B8;
+}
+
+.skill p {
+    color: #B8B8B8;
+    font-size: 18px;
+    letter-spacing: 0.8px;
+    line-height: 1.5em;
+    margin: 14px 0 75px 0;
+}
+.skill h5{
+    background: linear-gradient(90deg, #ff0000,#ffff00,#ff00f3,#0033ff,#ff00c4,#ff0000);
+    background-size: 400%;
+    font-size: 20px;
+    letter-spacing: 2px;
+    font-weight: 600;
+    padding-left: 15px;
+    word-spacing: 5px;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: animate 10s linear infinite;
+    padding-top: 10px;
+}
+@keyframes animate{
+    0%{
+        background-position: 0%;
+    }
+    100%{
+        background-position: 400%;
+    }
+}
+
+.slider {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.slider .item img {
+    width: 50%;
+}
+@media (max-width:480px){
+    .skill h2{
+        font-size: 30px;
+    }
+    .skill p{
+        font-size: 15px;
+    }
+}

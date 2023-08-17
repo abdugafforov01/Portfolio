@@ -1,0 +1,109 @@
+.portfolio {
+    padding-top: 100px;
+    padding-bottom: 120px;
+}
+
+@media (max-width:480px) {
+    .portfolio {
+        padding-top: 40px;
+    }
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 60px;
+    padding-top: 100px;
+}
+
+.col {
+    width: 300px;
+    height: 350px;
+    background: transparent;
+    border: 2px solid #4282f9;
+    border-radius: 30px;
+    text-align: center;
+    transition: 0.5s;
+}
+
+.col:hover {
+    transform: translate3d(0px, -7%, 5px);
+    transition: 0.5s;
+}
+
+.col img {
+    width: 260px;
+    height: 190px;
+    margin-top: 15px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.col h3 {
+    text-align: left;
+    color: aliceblue;
+    font-size: 24px;
+    padding: 15px 0 0 22px;
+    width: 250px;
+}
+
+.title {
+    font-size: 45px;
+    font-weight: 700;
+    color: #B8B8B8;
+    text-align: center;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+
+.col a {
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 22px;
+}
+
+.col a button {
+    width: 100px;
+    height: 35px;
+    background: transparent;
+    border: 1px solid #4282f9;
+    border-radius: 10px;
+    color: #4282f9;
+    margin-top: 10px;
+}
+
+.col a button:hover {
+    background-color: #4282f9;
+    color: aliceblue;
+}
+
+.col a button:active {
+    background: transparent;
+    color: #4282f9;
+}
+
+@media (max-width:1000px) {
+    .col:hover {
+        transform: none;
+    }
+
+    .col a button:hover {
+        background: transparent;
+        color: inherit;
+    }
+
+    .col a button:active {
+        background: #4282f9;
+        color: #fff;
+    }
+}
+@media (max-width:480px){
+    .title{
+        font-size: 28px;
+    }
+    .col h3{
+        font-size: 21px;
+    }
+}

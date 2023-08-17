@@ -1,0 +1,126 @@
+.about{
+  padding-top: 140px;
+  width: 100%;
+}
+.swiper {
+  max-width: 620px;
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+  max-width: 380px;
+  width: 100%;
+  height: 440px;
+  
+}
+
+.swiper-slide img {
+  display: block;
+  width: 360px;
+  height: 440px;
+}
+.flex{
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+.title h1{
+  color: rgb(139, 156, 156);
+  text-transform: capitalize;
+  max-width: 600px;
+  width: 100%;
+  text-align: left;
+  font-weight: 900;
+}
+.title p{
+  max-width: 600px;
+  width: 100%;
+  color: rgb(142, 144, 145);
+  text-align: left;
+  padding-top: 20px;
+}
+.title h3{
+  color: rgb(139, 156, 156);
+  text-transform: capitalize;
+  max-width: 600px;
+  width: 100%;
+  text-align: left;
+}
+.title button{
+  width: 150px;
+  height: 40px;
+  border: 1px solid #4282f9;
+  background: transparent;
+  color: #4282f9;
+  margin-top: 20px;
+  border-radius: 5px;
+  transition: 0.3s;
+  cursor: pointer;
+  font-weight: 600;
+}
+.title button:hover{
+  background-color: #4282f9;
+}
+.title a button:hover{
+  color: #feffff;
+}
+.title a button:active{
+  background: transparent;
+  color: #4282f9;
+}
+@media (max-width:1000px){
+  .flex{
+    display: inline-block;
+  }
+  .title{
+    max-width: 100%;
+    text-align: center;
+    padding-top: 50px;
+  }
+  .title h1{
+    text-align: center;
+    max-width: 100%;
+  }
+  .title h3{
+    text-align: center;
+    max-width: 100%;
+
+  }
+  .title p{
+    max-width: 1000px;
+    width: 100%;
+    text-align: center;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  .title a button:hover{
+    background-color: transparent;
+    color: #4282f9;
+  }
+
+  .title a button:active{
+    background: #4282f9;
+    color: #fff;
+  }
+}
+@media (max-width:480px){
+  .swiper{
+    max-width: 440px;
+    
+  }
+  .swiper-slide{
+    max-width: 300px;
+    height: 370px;
+  }
+  .swiper-slide img{
+    width: 300px;
+    height: 370px;
+  }
+  .about{
+    padding-top: 100px;
+  }
+}

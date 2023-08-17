@@ -1,0 +1,339 @@
+.home {
+    padding-top: 70px;
+}
+
+.title {
+    max-width: 800px;
+    width: 100%;
+    text-align: left;
+    background: linear-gradient(90deg, #ff0000, #ffff00, #ff00f3, #0033ff, #ff00c4, #ff0000);
+    background-size: 400%;
+    font-size: 20px;
+    letter-spacing: 5px;
+    font-weight: 500;
+    word-spacing: 5px;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: animate 10s linear infinite;
+}
+
+.text {
+    max-width: 700px;
+    width: 100%;
+    text-align: left;
+    background: linear-gradient(90deg, #ff0000, #ffff00, #ff00f3, #0033ff, #ff00c4, #ff0000);
+    background-size: 400%;
+    font-size: 50px;
+    letter-spacing: 5px;
+    font-weight: 600;
+    word-spacing: 5px;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: animate 10s linear infinite;
+    padding-top: 10px;
+}
+
+@keyframes animate {
+    0% {
+        background-position: 0%;
+    }
+
+    100% {
+        background-position: 400%;
+    }
+}
+
+.img {
+    position: relative;
+    max-width: 450px;
+    width: 100%;
+    height: 550px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.img::after {
+    content: '';
+    position: absolute;
+    width: 700px;
+    height: 650px;
+    background-image: conic-gradient(transparent,
+            transparent, transparent, #FE20CA);
+    animation: image 4s linear infinite;
+    animation-delay: -2s;
+}
+
+.img::before {
+    content: '';
+    position: absolute;
+    width: 700px;
+    height: 650px;
+    background-image: conic-gradient(transparent,
+            transparent, transparent, #20E7FE);
+    animation: image 4s linear infinite;
+}
+
+.img span {
+    position: absolute;
+    inset: 5px;
+    border-radius: 20px;
+    background: #1A202C;
+    z-index: 1;
+}
+
+.img img {
+    position: relative;
+    z-index: 2;
+    width: 450px;
+    height: 540px;
+    border-radius: 20px;
+
+}
+
+@keyframes image {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    padding-top: 80px;
+    justify-content: center;
+    gap: 100px;
+}
+
+.link {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 1px solid rgba(255, 255, 255, 0.35);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgba(255, 255, 255, 0.35);
+}
+
+.link:hover {
+    color: #07feee;
+    border: 1px solid #07feee;
+    transition: 0.5s;
+}
+
+.contact {
+    max-width: 220px;
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    padding-top: 20px;
+    width: 100%;
+}
+
+.btn {
+    position: relative;
+    width: 200px;
+    height: 60px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgba(255, 255, 255, 0.5);
+    text-decoration: none;
+    letter-spacing: 2px;
+    border-top: 0.5px solid rgba(255, 255, 255, 0.35);
+    border-left: 0.5px solid rgba(255, 255, 255, 0.35);
+    padding-left: 40px;
+    transition: 0.5s;
+    overflow: hidden;
+    margin-top: 20px;
+}
+
+.btn:hover {
+    padding-left: 0;
+    padding-right: 40px;
+    color: rgba(255, 255, 255, 1);
+}
+
+.btn span {
+    position: absolute;
+    left: 5px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #20fe07;
+    transition: 0.5s ease-in-out;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #000;
+}
+
+.btn:hover span {
+    left: calc(100% - 55px);
+}
+
+.btn:after {
+    content: '';
+    position: absolute;
+    width: 80px;
+    height: 100%;
+    z-index: 1;
+    background-color: rgba(255, 255, 255, 0.5);
+    transform: translateX(-180px) skewX(30deg);
+    transition: 0.75s ease-in-out;
+}
+
+.btn:hover:after {
+    transform: translateX(170px) skewX(30deg);
+}
+
+.conect {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    padding-top: 20px;
+}
+
+.image {
+    display: none;
+}
+
+@media (max-width:1000px) {
+    .title {
+        max-width: 950px;
+        padding-top: 100px;
+        text-align: center;
+    }
+
+    .flex {
+        display: block;
+    }
+
+    .text {
+        max-width: 950px;
+        text-align: center;
+    }
+
+    .image {
+        display: block;
+        display: flex;
+        justify-content: center;
+    }
+
+    .block {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .conect {
+        display: block;
+    }
+
+    .none {
+        display: none;
+    }
+
+    .call {
+        padding-top: 15px;
+    }
+
+    .image img {
+        width: 100%;
+        max-width: 450px;
+        border-radius: 20px;
+    }
+
+    .conect {
+        padding-top: 5px;
+    }
+
+    .link:hover {
+        color: rgba(255, 255, 255, 0.35);
+        border: 1px solid rgba(255, 255, 255, 0.35);
+
+    }
+
+    .link:active {
+        color: #07feee;
+        border: 1px solid #07feee;
+        transition: 0.5s;
+    }   
+}
+
+@media (max-width:480px) {
+    .image img {
+        width: 100%;
+        height: 470px;
+        max-width: 390px;
+        border-radius: 20px;
+        margin-top: 30px;
+    }
+
+    .image {
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+
+    .flex {
+        padding-top: 50px;
+    }
+
+    .title {
+        text-align: center;
+        font-size: 14px;
+        padding-top: 90px;
+        letter-spacing: 2px;
+    }
+
+    .text {
+        font-size: 30px;
+        padding-top: 20px;
+        letter-spacing: normal;
+        text-align: center;
+    }
+
+    .link {
+        width: 40px;
+        height: 40px;
+    }
+
+    .btn {
+        width: 190px;
+        height: 45px;
+        font-size: 14px;
+    }
+
+    .btn span {
+        width: 30px;
+        height: 30px;
+        margin-left: 20px;
+    }
+    .block {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .contact {
+        display: flex;
+        gap: 25px;
+        justify-content: center;
+    }
+
+    .btn:hover span {
+        left: calc(100% - 75px);
+    }
+
+}
